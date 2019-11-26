@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="trycss.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <style>
+           
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-slider" id="slider">
+                    <div class="carousel slide carousel-fade" id="col_slider" data-ride="carousel">
+                        
+                     <ol class="carousel-indicators">
+                         <li data-target="#col_slider" data-slide-to="0" class="active"></li>
+                         <li data-target="#col_slider" data-slide-to="1"></li>
+                    </ol>   
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="3000">
+                            <img src="1.jpg" >
+                        </div>
+                        
+                        <div class="carousel-item"  data-interval="3000">
+                            <img src="2.jpg">
+                        </div>
+                    </div>
+                    
+                    <a class="carousel-control-prev" href="#col_slider" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#col_slider" data-slider="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                        </div>
+                </div>
+
+                <div class="col-form" id="col_form">
+                    <form>
+                        <div class="form-group">
+                            <label for="uname">Name</label>
+                            <input type="text" class="form-control" id="uname" name="uname" placeholder="Enter Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="id">ID</label>
+                            <input type="text" class="form-control" id="id" name="id" placeholder="Enter your Versity ID" required>
+                        </div>
+                     
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="department">Department</label>
+                            <input type="text" class="form-control" id="department" placeholder="Enter Your Department" name="department" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone_number"> Phone Number</label>
+                            <input type="tel" class="form-control" id="phone_number" placeholder="Enter Your Phone Number" name="phone_number">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="idea"> Input Your Idea</label>
+                            <textarea class="form-control" rows="5" id="idea" placeholder="Have you any Innovative Idea?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        
+                    </form>
+
+                </div>
+                        
+                        
+            </div>
+        </div>
+    </body>
+</html>
